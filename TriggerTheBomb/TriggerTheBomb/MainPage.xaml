@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TriggerTheBomb;assembly=TriggerTheBomb.Android"
+             xmlns:local1="clr-namespace:TriggerTheBomb"
+             x:Class="TriggerTheBomb.MainPage">
+
+    <StackLayout>
+        
+        <Label 
+            Text="Trigger the bomb"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        
+        <Button 
+            Text="0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Clicked="ButtonClicked"/>
+        
+        <Button 
+            Text="1"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+             Clicked="ButtonClicked"/>
+        
+        <Button 
+            Text="2"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+             Clicked="ButtonClicked"/>
+        
+        <Label 
+            Text="Created by YavakaSolutions" 
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+
+    </StackLayout>
+
+
+</ContentPage>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "835412966884",
+    "firebase_url": "https://bombtrigger-2936e.firebaseio.com",
+    "project_id": "bombtrigger-2936e",
+    "storage_bucket": "bombtrigger-2936e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835412966884:android:6f8643867036a03e",
+        "android_client_info": {
+          "package_name": "yavakasolutions.bombtrigger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835412966884-7ghbnudec32opnm2hdgejle3ng8sngn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcRDf93fFRT6KJwZ3D5fgcYtFyoUU6KlE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
