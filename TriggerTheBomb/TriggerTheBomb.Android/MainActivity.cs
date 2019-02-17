@@ -20,6 +20,9 @@ namespace TriggerTheBomb.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-3877751906354570~2327307296");
+
             LoadApplication(new App());
         }
     }

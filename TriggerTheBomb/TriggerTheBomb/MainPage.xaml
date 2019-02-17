@@ -1,41 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:TriggerTheBomb;assembly=TriggerTheBomb.Android"
-             xmlns:local1="clr-namespace:TriggerTheBomb"
+             xmlns:ads="clr-namespace:TriggerTheBomb;assembly=TriggerTheBomb"
              x:Class="TriggerTheBomb.MainPage">
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+       
+        <StackLayout>
 
-    <StackLayout>
-        
-        <Label 
+            <Label 
             Text="Trigger the bomb"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-        
-        <Button 
+
+            <Button 
             Text="0"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             Clicked="ButtonClicked"/>
-        
-        <Button 
+
+            <Button 
             Text="1"
             HorizontalOptions="Center"
             VerticalOptions="Center"
              Clicked="ButtonClicked"/>
-        
-        <Button 
+
+            <Button 
             Text="2"
             HorizontalOptions="Center"
             VerticalOptions="Center"
              Clicked="ButtonClicked"/>
-        
-        <Label 
+
+            <Label 
             Text="Created by YavakaSolutions" 
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-
-    </StackLayout>
-
+        </StackLayout>
+        
+        <ads:AdControlView BackgroundColor="Red" Grid.Row="1"/>
+    </Grid>
 
 </ContentPage>
